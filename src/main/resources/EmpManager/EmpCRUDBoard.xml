@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+        	<xf:instance>
+        		<data xmlns="" />
+        	</xf:instance>
+        	<w2:dataCollection baseNode="map">
+
+        		<w2:dataList id="emp_userInfo">
+        			<w2:columnInfo>
+        				<w2:column id="empno" name="사번" dataType="number"></w2:column>
+        				<w2:column id="ename" name="이름" dataType="text"></w2:column>
+        				<w2:column id="gender" name="성별" dataType="text"></w2:column>
+        				<w2:column id="job" name="직무" dataType="text"></w2:column>
+        				<w2:column id="position" name="직위" dataType="text"></w2:column>
+        				<w2:column id="email" name="이메일" dataType="text"></w2:column>
+        				<w2:column id="salary" name="연봉" dataType="number"></w2:column>
+        				<w2:column id="hiredate" name="입사날짜" dataType="date"></w2:column>
+        				<w2:column id="createdDate" name="생성날짜" dataType="date"></w2:column>
+        				<w2:column id="lastUpdateDate" name="수정날짜" dataType="date"></w2:column>
+        				<w2:column id="CHK" name="name11" dataType="text"></w2:column>
+        			</w2:columnInfo>
+        			<w2:data xmlns="">
+        				<w2:row>
+        					<empno><![CDATA[1]]></empno>
+        					<ename><![CDATA[최성찬]]></ename>
+        					<gender><![CDATA[남]]></gender>
+        					<job><![CDATA[개발자]]></job>
+        					<position><![CDATA[사원]]></position>
+        					<email><![CDATA[csc1234@gamil.com]]></email>
+        					<salary><![CDATA[3000]]></salary>
+        					<hiredate><![CDATA[2017-05-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[2]]></empno>
+        					<ename><![CDATA[홍길동]]></ename>
+        					<gender><![CDATA[남]]></gender>
+        					<job><![CDATA[퍼블리셔]]></job>
+        					<position><![CDATA[대리]]></position>
+        					<email><![CDATA[HKD1313@gamil.com]]></email>
+        					<salary><![CDATA[4500]]></salary>
+        					<hiredate><![CDATA[2016-04-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[3]]></empno>
+        					<ename><![CDATA[임꺾정]]></ename>
+        					<gender><![CDATA[남]]></gender>
+        					<job><![CDATA[영업사원]]></job>
+        					<position><![CDATA[사원]]></position>
+        					<email><![CDATA[LMK@naver.com]]></email>
+        					<salary><![CDATA[2500]]></salary>
+        					<hiredate><![CDATA[2017-02-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[4]]></empno>
+        					<ename><![CDATA[장길산]]></ename>
+        					<gender><![CDATA[남]]></gender>
+        					<job><![CDATA[영업사원]]></job>
+        					<position><![CDATA[사원]]></position>
+        					<email><![CDATA[JKS@naver.com]]></email>
+        					<salary><![CDATA[2500]]></salary>
+        					<hiredate><![CDATA[2017-01-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[5]]></empno>
+        					<ename><![CDATA[장그래]]></ename>
+        					<gender><![CDATA[남]]></gender>
+        					<job><![CDATA[영업사원]]></job>
+        					<position><![CDATA[대리]]></position>
+        					<email><![CDATA[misang@naver.com]]></email>
+        					<salary><![CDATA[3000]]></salary>
+        					<hiredate><![CDATA[2016-02-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[6]]></empno>
+        					<ename><![CDATA[한석율]]></ename>
+        					<gender><![CDATA[남]]></gender>
+        					<job><![CDATA[영업사원]]></job>
+        					<position><![CDATA[과장]]></position>
+        					<email><![CDATA[hsus@naver.com]]></email>
+        					<salary><![CDATA[3200]]></salary>
+        					<hiredate><![CDATA[2016-02-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[7]]></empno>
+        					<ename><![CDATA[손민정]]></ename>
+        					<gender><![CDATA[여]]></gender>
+        					<job><![CDATA[개발자]]></job>
+        					<position><![CDATA[사원]]></position>
+        					<email><![CDATA[SMJ@naver.com]]></email>
+        					<salary><![CDATA[3000]]></salary>
+        					<hiredate><![CDATA[2017-05-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[8]]></empno>
+        					<ename><![CDATA[송윤선]]></ename>
+        					<gender><![CDATA[여]]></gender>
+        					<job><![CDATA[PL]]></job>
+        					<position><![CDATA[과장]]></position>
+        					<email><![CDATA[SUS@gamil.com]]></email>
+        					<salary><![CDATA[3500]]></salary>
+        					<hiredate><![CDATA[2012-05-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[9]]></empno>
+        					<ename><![CDATA[전희영]]></ename>
+        					<gender><![CDATA[여]]></gender>
+        					<job><![CDATA[개발자]]></job>
+        					<position><![CDATA[대리]]></position>
+        					<email><![CDATA[JHY1314@gamil.com]]></email>
+        					<salary><![CDATA[3300]]></salary>
+        					<hiredate><![CDATA[2014-05-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        				<w2:row>
+        					<empno><![CDATA[10]]></empno>
+        					<ename><![CDATA[이민교]]></ename>
+        					<gender><![CDATA[남]]></gender>
+        					<job><![CDATA[개발자]]></job>
+        					<position><![CDATA[대리]]></position>
+        					<email><![CDATA[LMK1313@gamil.com]]></email>
+        					<salary><![CDATA[3100]]></salary>
+        					<hiredate><![CDATA[2017-05-02]]></hiredate>
+        					<createdDate><![CDATA[2018-07-03T11:36:14]]></createdDate>
+        					<lastUpdateDate><![CDATA[2018-07-03T11:36:14]]></lastUpdateDate>
+        				</w2:row>
+        			</w2:data>
+        		</w2:dataList>
+        	</w2:dataCollection>
+        	<w2:workflowCollection></w2:workflowCollection>
+        	<xf:submission id="getEmpData" ref="" target="data:json,emp_userInfo" action="http://localhost:8080/api/emp.post" method="post"
+        		mediatype="application/json" encoding="UTF-8" instance="" replace="" errorHandler="" customHandler="" mode="asynchronous"
+        		processMsg="" ev:submit="" ev:submitdone="" ev:submiterror="" abortTrigger="">
+        	</xf:submission>
+        	<xf:submission id="saveAndSelect" ref="data:json,emp_userInfo" target="data:json,emp_userInfo"
+        		action="http://localhost:8080/api/emp/saveAndSelectMember.do" method="post" mediatype="application/json" encoding="UTF-8"
+        		instance="" replace="" errorHandler="" customHandler="" mode="asynchronous" processMsg="" ev:submit="" ev:submitdone=""
+        		ev:submiterror="" abortTrigger="">
+        	</xf:submission>
+        </xf:model>
+        <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	
+	scwin.selectBtn_onclick = function(e) {
+		$w.executeSubmission("getEmpData");
+	};
+	
+	scwin.updateBtn_onclick = function(e) {
+		$w.executeSubmission("saveAndSelect");
+	};
+	
+	scwin.addBtn_onclick = function(e) {
+		emp_userInfo.insertRow();
+	};
+	
+	scwin.deleteBtn_onclick = function(e) {
+		var checkedRowArray=EmpGrid.getCheckedIndex( "CHK" );
+		emp_userInfo.removeRows(checkedRowArray);
+		for(i = 0;i<checkedRowArray.length;i++){
+			emp_userInfo.deleteRow(checkedRowArray[i]);
+			//alert(checkedRowArray[i]);
+		}
+	};
+
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group id="" style="padding:20px;height: 500px;" class="">
+    		<xf:group id="" style="height: 40px;border: 1px solid gray;overflow: hidden;margin-bottom: 10px;padding: 10px 0px 0px 10px;"
+    			class="">
+    			<xf:trigger type="button" id="selectBtn" style="position: relative;width: 80px;height: 23px;" ev:onclick="scwin.selectBtn_onclick">
+    				<xf:label><![CDATA[조회]]></xf:label>
+    			</xf:trigger>
+    			<xf:trigger id="addBtn" style="position: relative;width: 80px;height: 23px;" type="button" ev:onclick="scwin.addBtn_onclick">
+    				<xf:label><![CDATA[추가]]></xf:label>
+    			</xf:trigger>
+    			<xf:trigger id="updateBtn" style="position: relative;width: 80px;height: 23px;" type="button" ev:onclick="scwin.updateBtn_onclick">
+    				<xf:label><![CDATA[저장]]></xf:label>
+    			</xf:trigger>
+    			<xf:trigger id="deleteBtn" style="position: relative;width: 80px;height: 23px;" type="button" ev:onclick="scwin.deleteBtn_onclick">
+    				<xf:label><![CDATA[삭제]]></xf:label>
+    			</xf:trigger>
+    		</xf:group>
+    		<w2:gridView dataList="data:emp_userInfo" summaryAuto="false" applyAllColumnStyle="false" scrollByColumn="false"
+    			defaultCellHeight="20" scrollByColumnAdaptive="false" id="EmpGrid" style="position: relative;height: 430px;" ignoreCellClick="false"
+    			syncScroll="false" ignoreToggleOnDisabled="false" summaryOnlyAuto="false" useShiftKey="true" ev:onafteredit="scwin.EmpGrid_onafteredit">
+    			<w2:caption id="caption1" style="" value="this is a grid caption."></w2:caption>
+    			<w2:header id="header1" style="">
+    				<w2:row id="row1" style="">
+    					<w2:column blockSelect="false" id="column23" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column21" removeBorderStyle="false" footerDiv="false" style=""
+    						inputType="checkbox" width="70" value="" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column19" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="사번" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column17" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="이름" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column15" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="성별" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column13" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="직무" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column11" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="직위" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column9" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="185" value="이메일" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column7" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="연봉" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column5" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="158" value="입사날짜" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column3" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="190" value="생성날짜" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="column1" removeBorderStyle="false" footerDiv="false" style="" width="179"
+    						inputType="text" value="수정날짜" displayMode="label">
+    					</w2:column>
+    				</w2:row>
+    			</w2:header>
+    			<w2:gBody id="gBody1" style="">
+    				<w2:row id="row2" style="">
+    					<w2:column blockSelect="false" id="column24" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="CHK" removeBorderStyle="false" footerDiv="false" style=""
+    						inputType="checkbox" width="70" value="" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="empno" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="ename" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="gender" removeBorderStyle="false" footerDiv="false" style="" inputType="select"
+    						width="70" value="" displayMode="label" allOption="" chooseOption="" ref="">
+    						<w2:choices>
+    							<w2:item>
+    								<w2:label><![CDATA[남]]></w2:label>
+    								<w2:value><![CDATA[남]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[여]]></w2:label>
+    								<w2:value><![CDATA[여]]></w2:value>
+    							</w2:item>
+    						</w2:choices>
+    					</w2:column>
+    					<w2:column blockSelect="false" id="job" removeBorderStyle="false" footerDiv="false" style="" inputType="select"
+    						width="70" value="" displayMode="label" allOption="" chooseOption="" ref="">
+    						<w2:choices>
+    							<w2:item>
+    								<w2:label><![CDATA[개발자]]></w2:label>
+    								<w2:value><![CDATA[개발자]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[퍼블리셔]]></w2:label>
+    								<w2:value><![CDATA[퍼블리셔]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[영업사원]]></w2:label>
+    								<w2:value><![CDATA[영업사원]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[PL]]></w2:label>
+    								<w2:value><![CDATA[PL]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[PM]]></w2:label>
+    								<w2:value><![CDATA[PM]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[아키텍트]]></w2:label>
+    								<w2:value><![CDATA[아키텍트]]></w2:value>
+    							</w2:item>
+    						</w2:choices>
+    					</w2:column>
+    					<w2:column blockSelect="false" id="position" removeBorderStyle="false" footerDiv="false" style="" inputType="select"
+    						width="70" value="" displayMode="label" allOption="" chooseOption="" ref="">
+    						<w2:choices>
+    							<w2:item>
+    								<w2:label><![CDATA[사원]]></w2:label>
+    								<w2:value><![CDATA[사원]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[대리]]></w2:label>
+    								<w2:value><![CDATA[대리]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[차장]]></w2:label>
+    								<w2:value><![CDATA[차장]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[과장]]></w2:label>
+    								<w2:value><![CDATA[과장]]></w2:value>
+    							</w2:item>
+    							<w2:item>
+    								<w2:label><![CDATA[부장]]></w2:label>
+    								<w2:value><![CDATA[부장]]></w2:value>
+    							</w2:item>
+    						</w2:choices>
+    					</w2:column>
+    					<w2:column blockSelect="false" id="email" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="185" value="" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="salary" removeBorderStyle="false" footerDiv="false" style="" inputType="text"
+    						width="70" value="" displayMode="label">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="hiredate" removeBorderStyle="false" footerDiv="false" style="" inputType=""
+    						width="158" value="" displayMode="label" dataType="date" calendarValueType="yearMonthDate">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="createdDate" removeBorderStyle="false" footerDiv="false" style=""
+    						inputType="text" width="190" value="" displayMode="label" dataType="date" calendarValueType="yearMonthDateTime">
+    					</w2:column>
+    					<w2:column blockSelect="false" id="lastUpdateDate" removeBorderStyle="false" footerDiv="false" style="" width="179"
+    						inputType="text" value="" displayMode="label" dataType="date" calendarValueType="yearMonthDateTime">
+    					</w2:column>
+    				</w2:row>
+    			</w2:gBody>
+    		</w2:gridView>
+    	</xf:group>
+    </body>
+</html>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.emp.server.mapper.EmpMapper">
+	<resultMap type="Emp" id="EmpResultMap">
+		<result property="empno" column="EMPNO"/>
+		<result property="ename" column="ENAME"/>
+		<result property="gender" column="GENDER"/>
+		<result property="job" column="JOB"/>
+		<result property="position" column="POSITION"/>
+		<result property="email" column="EMAIL"/>
+		<result property="salary" column="SALARY"/>
+		<result property="hiredate" column="HIREDATE"/>
+		<result property="createdDate" column="CREATEDDATE"/>
+		<result property="lastUpdateDate" column="LASTUPDATEDATE"/>
+	</resultMap>
+	
+	<insert id="insert" parameterType="Emp">
+		INSERT INTO employee 
+		VALUES(default, #{ename}, #{gender}, #{job}, #{position}, #{email}, #{salary}, default, default, default)
+	</insert>
+
+	<update id="update" parameterType="int">
+		UPDATE Emp 
+		SET name=#{ename}, age=#{age}, salary=#{salary}
+		WHERE empno=#{empno} 
+	</update>
+	
+	<delete id="deleteByEmpNo" parameterType="int">
+		DELETE 
+		FROM employee
+		WHERE empno=#{empno}
+	</delete>
+	
+	<select id="selectByEmp" resultType="Map" parameterType="com.emp.server.model.Emp">
+		SELECT empno, ename, gender, job, position, email, salary, hiredate, createdDate, lastUpdateDate
+		FROM employee
+		WHERE 1=1
+		<if test="GENDER != null and !GENDER.equals('all')">
+			AND GENDER = #{GENDER}
+		</if>
+		<if test="POSITION != null and !POSITION.equals('all')">
+			AND POSITION = #{POSITION}
+		</if>
+	</select>
+	
+	<!-- 웹스퀘어용  -->
+
+	<insert id="insertEmpWq" parameterType="Map">
+		INSERT INTO employee(empno, ename, gender, job, position, email, salary) 
+		VALUES(default, #{ename}, #{gender}, #{job}, #{position}, #{email}, #{salary})
+	</insert>
+
+	
+
+	<insert id="insertEmpWqBatch" parameterType="Map">
+		
+		INSERT INTO employee(empno, ename, gender, job, position, email, salary) 
+
+		VALUES
+
+		<foreach item="param" collection="insert" index="idx" open="" separator="," close="">
+
+			(
+
+				default,
+
+				#{param.ename},
+
+				#{param.gender},
+
+				#{param.job},
+
+				#{param.position},
+				
+				#{param.email},
+				
+				#{param.salary}
+
+			)
+
+		</foreach>
+
+	</insert>
+
+	
+
+	<update id="updateEmpWq" parameterType="Map">
+		UPDATE employee SET ename=#{ename}, gender=#{gender}, job=#{job}, position=#{position}, email=#{email}, salary=#{salary}, lastUpdateDate=#{lastUpdateDate}
+		WHERE empno=#{empno}
+	</update>
+
+	<update id="updateEmpWqBatch" parameterType="Map">
+
+		<foreach item="param" collection="update" open="" separator=";" close="">
+
+			update employee set
+
+				ename=#{param.ename},
+
+				gender=#{param.gender},
+				
+				job=#{param.job},
+				
+				position=#{param.position},
+				
+				email=#{param.email},
+				
+				salary=#{param.salary},
+
+				lastUpdateDate=#{param.lastUpdateDate}
+				
+			where empno=#{param.empno}
+
+		</foreach>
+
+	</update>
+
+	
+
+	
+
+	<delete id="deleteEmpWq" parameterType="Map">
+
+		DELETE FROM employee WHERE empno=#{empno}
+
+	</delete>
+
+	
+
+	<delete id="deleteEmpWqBatch" parameterType="Map">
+
+		DELETE FROM employee WHERE empno IN
+
+		<foreach item="param" collection="delete" open="(" separator="," close=")">
+
+			#{param.empno}
+
+		</foreach>
+
+	</delete>
+	
+	
+	
+	
+</mapper>
